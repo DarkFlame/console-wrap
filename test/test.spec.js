@@ -1,4 +1,4 @@
- require('../index')({});
+require('node-console-wrap')({});
 var count = {
     a:{
         b:{
@@ -8,4 +8,4 @@ var count = {
     }
 };
 
- console.log('count:', count);
+console.log('count:', count);

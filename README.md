@@ -2,23 +2,26 @@
  
  对nodejs原生的console.log函数的一层简单的包装，能够正确显示多层级的对象
  
+ $Install
+ ```
+    npm i node-console-wrap
+```
  
  # Usage
  
 ```javascript
 
- require('../index')({});
- 
- var count = {
+require('node-console-wrap')({});
+var count = {
     a:{
         b:{
-            c:[1,2,3],
-            d:[1,2,3]
-        }
-    }
- };
+    c:[1,2,3],
+        d:[1,2,3]
+}
+}
+};
 
- console.log('count:', count);
+console.log('count:', count);
 ```
 # Setting
 可以设置显示的参数配置
