@@ -1,0 +1,22 @@
+{
+  "name": "node-console-wrap",
+  "version": "1.0.0",
+  "description": "node console wrap",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunyue1992/console-wrap.git"
+  },
+  "author": "L.Lawliet-Yue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunyue1992/console-wrap/issues"
+  },
+  "homepage": "https://github.com/sunyue1992/console-wrap#readme"
+}
